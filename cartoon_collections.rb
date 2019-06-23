@@ -23,5 +23,4 @@ def find_the_cheese(array)
     element == cheese_types[1] ||
     element == cheese_types[2]
   end
-
 end
