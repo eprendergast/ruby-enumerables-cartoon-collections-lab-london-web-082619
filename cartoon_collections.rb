@@ -1,5 +1,9 @@
-def roll_call_dwarves# code an argument here
-  # Your code here
+def roll_call_dwarves(dwarves)
+  i = 0
+  dwarves.map do |dwarf|
+    puts "#{i+1}. #{dwarf}"
+    i += 1
+  end
 end
 
 def summon_captain_planet# code an argument here
